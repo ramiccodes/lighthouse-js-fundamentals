@@ -37,3 +37,15 @@ if (temperature < -40 || temperature > 40) {
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
+
+const whichSchool = function (age) {
+  if (age <= 18 && age >= 13) {
+    console.log("Secondary School");
+  } else if (age < 13) {
+    console.log("Elementary School");
+  } else {
+    console.log("Lighhouse Labs");
+  }
+}
+
+whichSchool(11);
