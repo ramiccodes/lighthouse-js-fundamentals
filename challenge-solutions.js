@@ -92,3 +92,41 @@
 // };
 
 // console.log(calculateCircleArea(1.5));
+
+// //My code for Looping - Range 
+// const range = function(start, end, step) {
+
+//   if (end < start || step <= 0 ) {
+//     return [];
+//   } else {
+//       const numList = [];
+//       for (let i = start; i <= end; i += step) {
+//         numList.push(i);
+//       }
+//       return numList;
+//   }
+// }
+
+// console.log(range(0, 100, -1));
+
+// // My code for lastIndexOf
+// const lastIndexOf = (array, value) => {
+//   let index;
+//    for (let i = array.length - 1; i >= 0; i--) {
+//     if (value === array[i]) {
+//       index = i;
+//       return index;
+//     }
+//    }
+//    return -1;
+// }
+
+// console.log(lastIndexOf([2,3,5,1,4], 5));
+
+// My code for Concatenate Arrays
+const concat = (array1, array2) => {
+  const array3 = array1.concat(array2);
+  return array3
+}
+
+console.log(concat([1,2,3],[4,5,6]));
